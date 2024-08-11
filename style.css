@@ -1,4 +1,4 @@
-*´{
+*´ {
 
     /* Tamaño de Letra */
     font-size: 1rem;
@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url(/assets/tumblr_mx1j8pum9z1s41isho1_1280.jpg); 
+    background-image: url(/assets/tumblr_mx1j8pum9z1s41isho1_1280.jpg);
     padding: 50px 50px 50px 50px;
     background-size: cover;
 
@@ -24,10 +24,11 @@ header nav {
     justify-content: space-between;
     background-color: #ffffff15;
     border-radius: 10px;
-    padding: 35px 35px;
+    padding: 15px 50px;
     border-top: 4px solid #888887;
     border-right: 4px solid #888887;
     border-left: 4px solid #888887;
+    align-items: center;
 
 }
 
@@ -51,19 +52,19 @@ header nav {
 .barra {
 
     background-color: rgba(8, 8, 8, 0);
-    padding: 10px 1px;
+    padding: 10px 30px;
 }
 
 .logo {
-   display: flex;
+    display: flex;
     justify-content: center;
-    width: 200px; /* Ajusta el ancho a tu gusto */
-  height: 50px; /* Ajusta la altura a tu gusto */
+    width: 200px;
+    height: 50px;
 }
 
 
 
-header{
+header {
 
     border-radius: 10px;
 }
@@ -77,8 +78,6 @@ header nav span {
     color: white;
     border-radius: 10px;
     margin-inline-start: 10px
-    
-
 }
 
 nav {
@@ -94,4 +93,123 @@ main {
     padding: 30px 30px 30px 30px;
     backdrop-filter: blur(15px);
     border: 4px solid #888887;
- }
+}
+
+.avatar {
+    display: flex;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+
+}
+
+.user {
+
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.account {
+
+    font-weight: semi-bold;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+.PERFIL {
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+main h1 {
+
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    justify-content: center;
+}
+
+
+.canciones {
+
+    display: flex;
+    padding: 0px 100px;
+
+}
+
+
+
+.reproductor {
+
+    width: 300px;
+    height: 200px;
+    background-color: #222;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.reproductor img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    filter: grayscale(50%) brightness(0.8);
+
+}
+
+
+
+.cancion-info h2{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.cancion-info p {
+
+    text-align: center;
+    color: #fff;
+    font-weight: regular;
+    font-size: 26px;
+}
+
+.controles {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.controles button {
+
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+
+.reproductor-ubicacion {
+
+    display: flex
+    
+}
+
+.lista-canciones {
+
+    display: flex;
+
+}
