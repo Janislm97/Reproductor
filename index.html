@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FoldTune©</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/Style.css">
+    <link rel="shortcut icon" href="/assets/Vector (1).svg" type="image/x-icon">
 
 </head>
 
@@ -14,10 +17,33 @@
 
 
     <header>
-        <img src="/assets/Vector (1).svg" alt="">
-        <h1 class="text-xxl font-bold my-8 mx-8">FoldTune</h1>
+
+        <nav>
+
+            <div class="logo">
+                <img src="/assets/Vector (1).svg" alt="">
+                <span>FoldTunes</span>
+
+            </div>
+            
+            <div class="boton">
+        
+                <form action="resultados.html" class="icono">
+                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                 <input type="text" placeholder="Buscar Cancion" class="barra">
+                 <button type="submit" class="lupa"><i class="fa fa-search"></i></button>
+                </form>
+        
+            </div>
+            
+        </nav>
+        
+        
+    
+
 
     </header>
+
 
 
     <main id="container">
@@ -27,4 +53,5 @@
 
     <script src="/main.js"></script>
 </body>
+
 </html>

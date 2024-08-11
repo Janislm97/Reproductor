@@ -1,0 +1,92 @@
+*´{
+
+    /* Tamaño de Letra */
+    font-size: 1rem;
+
+    /* Grosor de la tipografia*/
+    font-weight: 400;
+
+    /*Tipografia*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+body {
+    background-image: url(/assets/tumblr_mx1j8pum9z1s41isho1_1280.jpg);
+    padding: 50px 50px 50px 50px;
+    background-size: cover;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff15;
+    border-radius: 10px;
+    padding: 35px 35px;
+    border-top: 4px solid #888887;
+    border-right: 4px solid #888887;
+    border-left: 4px solid #888887;
+
+}
+
+.boton {
+
+
+    background-color: rgba(8, 8, 8, 0.87);
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.lupa {
+
+    font-size: x-large
+}
+
+.barra {
+
+    background-color: rgba(8, 8, 8, 0);
+    padding: 10px 1px;
+}
+
+.logo {
+   display: flex;
+    justify-content: center;
+}
+
+header{
+
+    border-radius: 10px;
+}
+
+header nav span {
+
+    align-items: start;
+    justify-self: start;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    border-radius: 10px;
+    
+
+}
+
+nav {
+
+    backdrop-filter: blur(15px);
+    border: 100px snow;
+}
+
+main {
+
+    background-color: rgba(58, 58, 58, 0.315);
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    backdrop-filter: blur(15px);
+    border: 4px solid #888887;
+ }
