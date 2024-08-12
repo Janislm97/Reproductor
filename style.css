@@ -98,8 +98,8 @@ main {
 .avatar {
     display: flex;
     border-radius: 100%;
-    width: 100px;
-    height: 100px;
+    width: 63px;
+    height: 63px;
     justify-content: center;
 
 }
