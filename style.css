@@ -93,6 +93,10 @@ main {
     padding: 30px 30px 30px 30px;
     backdrop-filter: blur(15px);
     border: 4px solid #888887;
+
+
+    /* Esto para poner la lista de canciones y la canción actual una al lado de la otra */
+    display: flex;
 }
 
 .avatar {
@@ -203,13 +207,14 @@ main h1 {
 
 
 .reproductor-ubicacion {
-
-    display: flex
+    width: 50%;
+    display: flex;
+    justify-content: center;
     
 }
 
 .lista-canciones {
 
     display: flex;
-
+    flex-grow: 1;
 }
