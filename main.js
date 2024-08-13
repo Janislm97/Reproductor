@@ -24,16 +24,16 @@ axios.get('https://leonardoapi.onrender.com/songs')
         // handle success
         response.data.songs.map((song) => {
             let div = document.createElement('div')
-            div.setAttribute('class', "flex hover:bg-slate-100 transition-all cursor-pointer py-3 px-1 gap-5 items-center")
+            div.setAttribute('class', "flex hover:bg-slate-100 transition-all cursor-pointer py-3 px-1 gap-5 items-center ")
 
             div.innerHTML = `
-                <img src="${song.path.front}" alt="" class="h-16">
+                <img src="${song.path.front}" alt="" class="h-16.5" style="border-radius: 20px">
                 <div>
                     <p class="font-bold">${song.title}</p>
                     <p class="opacity-60">${song.author}</p>
                 </div>
             `
-
+            
 
             document.getElementById('container').appendChild(div)
         })
