@@ -34,6 +34,10 @@ axios.get('https://leonardoapi.onrender.com/songs')
                 </div>
             `
             
+            document.getElementById('audio-player-image').setAttribute('src', song.path.front)
+            document.getElementById('audio-player-song').innerHTML = `${song.title}`
+            document.getElementById('audio-player-author').innerHTML = song.author
+            
 
             document.getElementById('container').appendChild(div)
         })

@@ -76,21 +76,24 @@
         <section class="reproductor-ubicacion">
 
             <div class="cancion-info">
-              <h1>Vignette</h1>
-              <p>Twenty One Pilots</p>
+              <h1 id="audio-player-song"></h1>
+              <p id="audio-player-author"></p>
             </div>
+
+            <audio id="audio" src=""></audio>
 
             <div class="reproductor">
 
                 
-                <img src="/assets/VINILO CD.png" alt="Imagen de cancion" class="portada-del-album">
+                <img id="audio-player-image"  src="" alt="">
+
 
                 <div class="controles">
-
-                    <audio autoplay controls id="current-song-img"></audio>
+                
+                    <audio autoplay controls id="current-song-audio" src=""></audio>
                   <button><img src="/assets/atras.svg" alt=""></button>
                   <button><img src="/assets/PLAY.svg" alt=""></button>
-                  <button><img src="/assets/PAUSE.svg" alt=""></button>
+                  <button><img src="/assets/PAUSE.svg" id="pause-btn" alt=""></button>
                   <button><img src="/assets/adelante.svg" alt=""></button>
                 </div>
               </div>
