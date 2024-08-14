@@ -15,7 +15,7 @@
 body {
     background-image: url(/assets/tumblr_mx1j8pum9z1s41isho1_1280.jpg);
     padding: 50px 50px 50px 50px;
-    background-size: cover;
+    background-size: unset;
 
 }
 
@@ -233,4 +233,7 @@ main h1 {
     justify-content: start;
     height: 900px;
     overflow: auto;
+    scrollbar-width: none;
+ 
+
 }
